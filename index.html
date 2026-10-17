@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akram Mohamed El-Sayed | Portfolio</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Animated Background Blobs ===== -->
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+    <div class="blob blob-4"></div>
+  </div>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <span class="brand-glow" data-en="Akram" data-ar="أكрам">Akram</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list navbar-toggler-icon"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto me-3">
+          <li class="nav-item"><a class="nav-link" href="#home" data-en="Home" data-ar="الرئيسية">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about" data-en="About" data-ar="عني">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills" data-en="Skills" data-ar="المهارات">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#education" data-en="Education" data-ar="التعليم">Education</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects" data-en="Projects" data-ar="المشاريع">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact" data-en="Contact" data-ar="تواصل">Contact</a></li>
+        </ul>
+        <button class="lang-btn" id="langToggle" aria-label="Switch language">
+          <i class="bi bi-translate"></i> <span id="langLabel">AR</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero-section" id="home">
+    <div class="container">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-5 text-center text-lg-start mb-5 mb-lg-0 fade-in-left">
+          <div class="hero-photo-wrap">
+            <!--
+              === PHOTO SLOT ===
+              Your photo is displayed with animated neon border
+            -->
+            <div class="hero-photo" id="heroPhoto">
+              <img src="assets/photos/portrait.jpg" alt="Akram Mohamed El-Sayed" />
+            </div>
+            <div class="photo-glow"></div>
+          </div>
+        </div>
+        <div class="col-lg-7 text-center text-lg-start fade-in-right">
+          <p class="hero-greeting" data-en="Hello, I'm" data-ar="مرحباً، أنا">Hello, I'm</p>
+          <h1 class="hero-name" data-en="Akram Mohamed<br/>El-Sayed" data-ar="أكرم محمد<br/>السيد">
+            Akram Mohamed<br/><span class="accent">El-Sayed</span>
+          </h1>
+          <div class="hero-role-wrap">
+            <span class="hero-role" data-en="Front-End Developer" data-ar="مطور واجهات أمامية">Front-End Developer</span>
+            <span class="typing-cursor">|</span>
+          </div>
+          <p class="hero-tagline" data-en="A passionate learner building the web one line at a time. Currently mastering HTML, CSS, and C++ while diving deep into front-end development — committed to growing every single day." data-ar="متعلم شغوف يبني الويب سطرًا بسطر. أتقن حالياً HTML و CSS و C++ أثناء التعمق في تطوير الواجهات الأمامية — ملتزم بالنمو كل يوم.">
+            A passionate learner building the web one line at a time. Currently mastering HTML, CSS, and C++ while diving deep into front-end development &#8212; committed to growing every single day.
+          </p>
+          <div class="hero-btns mt-4 d-flex gap-3 justify-content-center justify-content-lg-start flex-wrap">
+            <a href="#skills" class="btn btn-neon" data-en="View My Skills" data-ar="عرض مهاراتي">View My Skills</a>
+            <a href="#contact" class="btn btn-outline-neon" data-en="Contact Me" data-ar="تواصل معي">Contact Me</a>
+          </div>
+          <div class="hero-social mt-4 d-flex gap-3 justify-content-center justify-content-lg-start">
+            <a href="https://github.com/3ssiliy" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
+              <i class="bi bi-github"></i>
+            </a>
+            <a href="#" class="social-icon" aria-label="LinkedIn">
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="mailto:mnmmn649@gmail.com" class="social-icon" aria-label="Email">
+              <i class="bi bi-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scroll indicator -->
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <i class="bi bi-chevron-double-down"></i>
+    </a>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title reveal" data-en="About Me" data-ar="عني">About Me</h2>
+      <div class="about-glass reveal">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <p class="about-text" data-en="I&#8217;m Akram Mohamed El-Sayed, born on January 1, 2005. I&#8217;m a dedicated and curious learner who is passionate about programming and web development. Currently a student at <a href=&#39;https://dhic.edu.eg/&#39; target=&#39;_blank&#39; rel=&#39;noopener noreferrer&#39; style=&#39;color:var(--neon-cyan);text-decoration:underline;&#39;>Delta Higher Institute for Management and Accounting Information Systems</a>." data-ar="أنا أكلام محمد السيد، وُلدت في 1 يناير 2005. أنا متعلم مخلص وفضولي أشد الشغف بالبرمجة وتطوير الويب. طالب حالياً في <a href=&#39;https://dhic.edu.eg/&#39; target=&#39;_blank&#39; rel=&#39;noopener noreferrer&#39; style=&#39;color:var(--neon-cyan);text-decoration:underline;&#39;>معهد دلتا العالي للإدارة والمحاسبة وأنظمة المعلومات</a>.">
+              I&#8217;m Akram Mohamed El-Sayed, born on January 1, 2005. I&#8217;m a dedicated and curious learner who is passionate about programming and web development. Currently a student at <a href="https://dhic.edu.eg/" target="_blank" rel="noopener noreferrer" style="color:var(--neon-cyan);text-decoration:underline;">Delta Higher Institute for Management and Accounting Information Systems</a>.
+            </p>
+            <p class="about-text" data-en="My journey started with lightweight programming languages like HTML and CSS, and I&#8217;ve since expanded into C++ and front-end development. I believe that consistent learning and hands-on practice are the keys to mastery." data-ar="بدأت رحلتي بلغات برمجة خفيفة مثل HTML و CSS، ومنذ ذلك الحين توسعت إلى C++ وتطوير الواجهات الأمامية. أؤمن بأن التعلم المستمر والتطبيق العملي هما مفتاح الإتقان.">
+              My journey started with lightweight programming languages like HTML and CSS, and I&#8217;ve since expanded into C++ and front-end development. I believe that consistent learning and hands-on practice are the keys to mastery.
+            </p>
+            <p class="motivational-quote" data-en="&#10067; &#8220;The expert in anything was once a beginner.&#8221; &#8212; I am committed to learning, growing, and building something remarkable." data-ar="&#10067; &#8220;الخبراء في أي مجال كانوا يوماً مبتدئين.&#8221; &#8212; أنا ملتزم بالتعلم والنمو وبناء شيء استثنائي.">
+              &#10067; &#8220;The expert in anything was once a beginner.&#8221; &#8212; I am committed to learning, growing, and building something remarkable.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-stats row g-3">
+              <div class="col-6">
+                <div class="stat-card">
+                  <span class="stat-number">2005</span>
+                  <span class="stat-label" data-en="Born" data-ar="سنة الميلاد">Born</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stat-card">
+                  <span class="stat-number">&#9733;</span>
+                  <span class="stat-label" data-en="Passion" data-ar="شغف">Passion</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stat-card">
+                  <span class="stat-number">3+</span>
+                  <span class="stat-label" data-en="Languages" data-ar="لغات">Languages</span>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="stat-card">
+                  <span class="stat-number">&#9829;</span>
+                  <span class="stat-label" data-en="Learning" data-ar="تعلم">Learning</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-links mt-4">
+          <a href="https://github.com/3ssiliy" target="_blank" rel="noopener noreferrer" class="github-link">
+            <i class="bi bi-github"></i>
+            <span data-en="View My GitHub" data-ar="عرض حسابي على GitHub">View My GitHub</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-title reveal" data-en="My Skills" data-ar="مهاراتي">My Skills</h2>
+      <p class="section-subtitle reveal" data-en="Technologies I work with and continue to grow" data-ar="التقنيات التي أعمل معها وأتابع تعلمها">Technologies I work with and continue to grow</p>
+      <div class="skills-grid">
+        <!-- HTML -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="bi bi-filetype-html"></i></div>
+          <h3>HTML</h3>
+          <p class="skill-desc" data-en="Structuring &amp; semantics" data-ar="الهيكلة والدلالات">Structuring &amp; semantics</p>
+          <div class="progress-track">
+            <div class="progress-bar-fill" data-width="80"></div>
+            <span class="progress-label">80%</span>
+          </div>
+        </div>
+        <!-- CSS -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="bi bi-filetype-css"></i></div>
+          <h3>CSS</h3>
+          <p class="skill-desc" data-en="Styling &amp; animations" data-ar="التنسيق والرسوم المتحركة">Styling &amp; animations</p>
+          <div class="progress-track">
+            <div class="progress-bar-fill" data-width="75"></div>
+            <span class="progress-label">75%</span>
+          </div>
+        </div>
+        <!-- C++ -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
+          <h3>C++</h3>
+          <p class="skill-desc" data-en="Logic &amp; algorithms" data-ar="المنطق والخوارزميات">Logic &amp; algorithms</p>
+          <div class="progress-track">
+            <div class="progress-bar-fill" data-width="60"></div>
+            <span class="progress-label">60%</span>
+          </div>
+        </div>
+        <!-- Front-End -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="bi bi-palette"></i></div>
+          <h3 data-en="Front-End Dev" data-ar="تطوير الواجهات">Front-End Dev</h3>
+          <p class="skill-desc" data-en="Building interactive UIs" data-ar="بناء واجهات تفاعلية">Building interactive UIs</p>
+          <div class="progress-track">
+            <div class="progress-bar-fill" data-width="50"></div>
+            <span class="progress-label">50%</span>
+          </div>
+        </div>
+        <!-- JavaScript -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="bi bi-filetype-js"></i></div>
+          <h3>JavaScript</h3>
+          <p class="skill-desc" data-en="Interactivity &amp; scripting" data-ar="التفاعلية والبرمجة">Interactivity &amp; scripting</p>
+          <div class="progress-track">
+            <div class="progress-bar-fill" data-width="30"></div>
+            <span class="progress-label">30%</span>
+          </div>
+        </div>
+        <!-- Bootstrap -->
+        <div class="skill-card reveal">
+          <div class="skill-icon"><i class="bi bi-bootstrap"></i></div>
+          <h3>Bootstrap</h3>
+          <p class="skill-desc" data-en="Rapid responsive layout" data-ar="تخطيط متجاوب سريع">Rapid responsive layout</p>
+          <div class="progress-track">
+            <div class="progress-bar-fill" data-width="55"></div>
+            <span class="progress-label">55%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Education Section (Placeholders) ===== -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section-title reveal" data-en="Education" data-ar="التعليم">Education</h2>
+      <p class="section-subtitle reveal" data-en="My academic journey and milestones" data-ar="رحلتي الأكاديمية ومحطاتي">My academic journey and milestones</p>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date" data-en="Present" data-ar="حالياً">Present</span>
+            <h3 class="timeline-title" data-en="Delta Higher Institute for Management and Accounting Information Systems" data-ar="معهد دلتا العالي للإدارة والمحاسبة وأنظمة المعلومات">Delta Higher Institute for Management and Accounting Information Systems</h3>
+            <p class="timeline-desc" data-en="Pursuing studies in management and accounting information systems, combining business knowledge with technology." data-ar="أدرس حالياً في معهد دلتا العالي للإدارة والمحاسبة وأنظمة المعلومات، حيث أجمع بين المعرفة الإدارية والتقنية.">Pursuing studies in management and accounting information systems, combining business knowledge with technology.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date" data-en="Ongoing" data-ar="مستمر">Ongoing</span>
+            <h3 class="timeline-title" data-en="Continuous Learning" data-ar="التعلم المستمر">Continuous Learning</h3>
+            <p class="timeline-desc" data-en="Self-studying front-end development, HTML, CSS, JavaScript, and C++ through online resources and hands-on projects." data-ar="أتعلم تطوير الواجهات الأمامية وHTML وCSS وJavaScript وC++ ذاتياً من خلال المصادر عبر الإنترنت والمشاريع العملية.">Self-studying front-end development, HTML, CSS, JavaScript, and C++ through online resources and hands-on projects.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section (Placeholders) ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <h2 class="section-title reveal" data-en="Projects" data-ar="المشاريع">Projects</h2>
+      <p class="section-subtitle reveal" data-en="Work I&#8217;m proud of (coming soon)" data-ar="أعمال أفخر بها (قريباً)">Work I&#8217;m proud of (coming soon)</p>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-img placeholder-img">
+            <i class="bi bi-folder"></i>
+          </div>
+          <div class="project-body">
+            <h3 data-en="Project One" data-ar="المشروع الأول">Project One</h3>
+            <p class="project-desc" data-en="A description of your upcoming project will appear here. Stay tuned!" data-ar="سيظهر وصف مشروعك القادم هنا. ترقبوا!">A description of your upcoming project will appear here. Stay tuned!</p>
+            <a href="https://github.com/3ssiliy" target="_blank" class="project-link"><i class="bi bi-github"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-img placeholder-img">
+            <i class="bi bi-folder"></i>
+          </div>
+          <div class="project-body">
+            <h3 data-en="Project Two" data-ar="المشروع الثاني">Project Two</h3>
+            <p class="project-desc" data-en="Another exciting project on its way. Check back soon!" data-ar="مشروع مثير آخر في الطريق. عُد قريباً!">Another exciting project on its way. Check back soon!</p>
+            <a href="https://github.com/3ssiliy" target="_blank" class="project-link"><i class="bi bi-github"></i> GitHub</a>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-img placeholder-img">
+            <i class="bi bi-folder"></i>
+          </div>
+          <div class="project-body">
+            <h3 data-en="Project Three" data-ar="المشروع الثالث">Project Three</h3>
+            <p class="project-desc" data-en="More projects coming soon as I continue learning and building." data-ar="المزيد من المشاريع قريباً مع استمرار التعلم والبناء.">More projects coming soon as I continue learning and building.</p>
+            <a href="https://github.com/3ssiliy" target="_blank" class="project-link"><i class="bi bi-github"></i> GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-title reveal" data-en="Get In Touch" data-ar="تواصل معي">Get In Touch</h2>
+      <p class="section-subtitle reveal" data-en="Have a question or want to collaborate? Reach out!" data-ar="لديك سؤال أو تريد التعاون؟ تواصل!">Have a question or want to collaborate? Reach out!</p>
+      <div class="row g-4 reveal">
+        <div class="col-lg-5">
+          <div class="contact-info glass-card h-100">
+            <h3 class="contact-info-title" data-en="Let&#8217;s Connect" data-ar="لنتمتع بالاتصال">Let&#8217;s Connect</h3>
+            <p class="contact-info-text" data-en="I&#8217;m always open to discussing new projects, creative ideas, or opportunities to learn and grow together." data-ar="أنا دائماً منفتح لمناقشة مشاريع جديدة، أفكار إبداعية، أو فرص للتعلم والنمو معاً.">I&#8217;m always open to discussing new projects, creative ideas, or opportunities to learn and grow together.</p>
+            <div class="contact-item">
+              <i class="bi bi-envelope"></i>
+              <span>mnmmn649@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-github"></i>
+              <a href="https://github.com/3ssiliy" target="_blank" rel="noopener noreferrer">github.com/3ssiliy</a>
+            </div>
+            <div class="contact-item">
+              <i class="bi bi-building"></i>
+              <a href="https://dhic.edu.eg/" target="_blank" rel="noopener noreferrer">Delta Higher Institute</a>
+            </div>
+            <div class="contact-social mt-4">
+              <a href="https://github.com/3ssiliy" target="_blank" rel="noopener noreferrer" class="contact-social-btn"><i class="bi bi-github"></i></a>
+              <a href="#" class="contact-social-btn"><i class="bi bi-linkedin"></i></a>
+              <a href="mailto:mnmmn649@gmail.com" class="contact-social-btn"><i class="bi bi-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="contact-form glass-card h-100 p-4">
+            <form id="contactForm" action="mailto:mnmmn649@gmail.com" method="POST" enctype="text/plain">
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="name" class="form-label" data-en="Your Name" data-ar="اسمك">Your Name</label>
+                  <input type="text" class="form-control neon-input" id="name" name="name" required />
+                </div>
+                <div class="col-sm-6">
+                  <label for="email" class="form-label" data-en="Your Email" data-ar="بريدك">Your Email</label>
+                  <input type="email" class="form-control neon-input" id="email" name="email" required />
+                </div>
+                <div class="col-12">
+                  <label for="subject" class="form-label" data-en="Subject" data-ar="الموضوع">Subject</label>
+                  <input type="text" class="form-control neon-input" id="subject" name="subject" />
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label" data-en="Message" data-ar="الرسالة">Message</label>
+                  <textarea class="form-control neon-input" id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-neon w-100" data-en="Send Message" data-ar="أرسل الرسالة">
+                    <i class="bi bi-send"></i> Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container text-center">
+      <p class="footer-text">
+        <span data-en="© 2025 Akram Mohamed El-Sayed. Built with" data-ar="© 2025 أكلام محمد السيد. بُني بـ">© 2025 Akram Mohamed El-Sayed. Built with</span>
+        <i class="bi bi-heart-fill heart-beat"></i>
+        <span data-en="and Bootstrap 5" data-ar="و Bootstrap 5">and Bootstrap 5</span>
+      </p>
+      <p class="footer-sub">
+        <a href="https://github.com/3ssiliy" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i> github.com/3ssiliy
+        </a>
+      </p>
+    </div>
+    <!-- Back to top -->
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="bi bi-arrow-up"></i>
+    </a>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
